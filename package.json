@@ -1,0 +1,11 @@
+{
+  "name": "gradient-background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
