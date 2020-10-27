@@ -1,17 +1,14 @@
 {
   "name": "gradient-background",
-  "homepage": "https://ToniGashi.github.io/Gradient-Background",
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "build": "browserify script.js > bundle.js && live-server",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^3.1.0"
+    "lodash": "^4.17.20"
   }
 }
